@@ -1,26 +1,36 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+    /* Brand Color Palette */
+    --color-medical-dark: #151515;
+    --color-medical-gray: #666666;
+    --color-medical-light: #fbfcfb;
+    --color-medical-green: #295638;
+    --color-medical-green-dark: #1d3d27;
+    --color-medical-gold: #c6a77d;
+    --color-medical-gold-light: rgba(198, 167, 125, 0.15);
+
+    /* Typography Fallbacks */
+    --font-sans: var(--font-inter), sans-serif;
+    --font-serif: var(--font-playfair), serif;
+
+    /* Shared Animations */
+    --animate-fade-in: fadeIn 0.25s ease-out forwards;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-4px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* Base Body Overrides */
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--color-medical-light);
+    color: #0f172a;
 }
