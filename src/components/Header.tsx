@@ -25,7 +25,7 @@ export default function Header() {
                         <i className="fa-solid fa-hexagon-nodes"></i>
                     </div>
                     <div className="leading-none">
-                        <h1 className="font-serif text-xl font-bold tracking-wide text-slate-900">HEALMED</h1>
+                        <h1 className="font-serif text-xl font-bold tracking-wide text-slate-900">Healman Healthcare</h1>
                         <p className="font-sans text-[10px] tracking-widest text-medical-gray uppercase">medical
                             supplies</p>
                     </div>

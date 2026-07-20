@@ -1,80 +1,99 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Hero() {
     return (
-        <section
-            className="relative w-full bg-slate-900 text-white overflow-hidden min-h-[calc(100vh-70px)] flex items-center">
-            {/* Structural Decorative Grid Layer */}
+        <section className="relative min-h-[85vh] w-full flex items-center bg-slate-900 text-white overflow-hidden">
+            {/* Decorative Gold Light Flare */}
             <div
-                className="absolute inset-0 bg-[linear-gradient(to_right,#1e293b_1px,transparent_1px),linear-gradient(to_bottom,#1e293b_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] opacity-20 pointer-events-none"/>
+                className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-medical-gold-light to-transparent opacity-30 pointer-events-none"/>
 
             <div
-                className="mx-auto max-w-7xl w-full px-6 py-12 md:py-20 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
+                className="mx-auto max-w-7xl w-full px-6 py-16 lg:py-24 relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
 
-                {/* Left Column: Premium Corporate Copy (7 Columns on Desktop) */}
-                <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
+                {/* Left Column: Core Value & Content */}
+                <div className="lg:col-span-7 flex flex-col justify-center space-y-6 max-w-2xl animate-fade-in">
+
+                    {/* Accreditation Badge */}
                     <div
-                        className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-medical-green/20 border border-medical-green text-xs font-semibold tracking-widest text-medical-gold uppercase">
-                        <span className="w-1.5 h-1.5 rounded-full bg-medical-gold animate-pulse"/>
-                        Official Regional Representative
+                        className="inline-flex items-center gap-2 bg-medical-green/90 text-white border border-medical-green-dark/50 px-4 py-2 rounded-full w-fit shadow-lg shadow-black/10">
+                        <span className="h-2 w-2 rounded-full bg-medical-gold animate-pulse"/>
+                        <p className="font-sans text-[10px] font-bold tracking-widest uppercase">
+                            Official Regional Representative
+                        </p>
                     </div>
 
-                    <h1 className="font-serif text-4xl sm:text-5xl xl:text-6xl font-bold tracking-wide leading-[1.15] text-white">
-                        Precision Hardware. <br/>
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-medical-gold to-white">
-              Elevated Clinical Trust.
-            </span>
+                    {/* Core Value Statement */}
+                    <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight leading-[1.1] text-white">
+                        Bridging Internation Medical Precision
                     </h1>
 
-                    <p className="font-sans text-sm sm:text-base text-slate-300 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-                        Connecting Armenia's surgical environments, healthcare professionals, and distributors with
-                        factory-direct International implant lines from ChM and precision instrumentation from Chirmed.
+                    <p className="font-sans text-sm md:text-base text-slate-300 leading-relaxed max-w-xl">
+                        Healman Healthcare, under the direct representation of <strong
+                        className="text-white font-semibold">Milad Ganji</strong>, is the official authorized
+                        representative for <span className="text-medical-gold font-medium">ChM</span> and <span
+                        className="text-medical-gold font-medium">Chirmed</span>. We deliver premium, certified trauma
+                        fixation systems and ultra-durable surgical instrumentation directly to leading healthcare
+                        institutions.
                     </p>
 
-                    {/* Action Callouts */}
-                    <div className="pt-4 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+                    {/* CTA Button Grid */}
+                    <div className="pt-4 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
                         <Link
                             href="/products"
-                            className="w-full sm:w-auto bg-medical-green hover:bg-medical-green-dark text-white font-sans text-xs font-bold tracking-widest uppercase px-8 py-4 rounded-lg shadow-lg shadow-medical-green/10 text-center transition-all transform hover:-translate-y-0.5"
+                            className="bg-medical-green hover:bg-medical-green-dark border border-transparent text-white font-sans text-xs font-bold tracking-widest uppercase px-8 py-4 rounded-lg flex items-center justify-center gap-3 transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-xl hover:shadow-medical-green/20"
                         >
-                            Explore Portfolio
+                            EXPLORE MEDICAL CATALOG <i className="fa-solid fa-arrow-right text-[10px]"></i>
                         </Link>
                         <Link
                             href="/contact"
-                            className="w-full sm:w-auto border border-slate-700 hover:border-medical-gold text-slate-300 hover:text-white font-sans text-xs font-bold tracking-widest uppercase px-8 py-4 rounded-lg text-center transition-colors bg-slate-900/50 backdrop-blur-sm"
+                            className="bg-transparent hover:bg-white/5 border border-white/20 hover:border-white text-white font-sans text-xs font-bold tracking-widest uppercase px-8 py-4 rounded-lg flex items-center justify-center gap-3 transition-all duration-300"
                         >
-                            Request Consultation
+                            REQUEST MANDATE PAPERS
                         </Link>
                     </div>
                 </div>
 
-                {/* Right Column: Custom Portrait Image Frame (5 Columns on Desktop) */}
-                <div className="lg:col-span-5 flex justify-center lg:justify-end w-full">
-                    <div className="relative w-full max-w-[360px] lg:max-w-[400px] group animate-fade-in">
+                {/* Right Column: Responsive Portrait Section */}
+                <div
+                    className="lg:col-span-5 flex items-center justify-center lg:justify-end animate-fade-in mt-10 lg:mt-0 relative">
 
-                        {/* Background Aesthetic Shadow/Border Effect */}
-                        <div
-                            className="absolute -inset-2 rounded-2xl bg-gradient-to-tr from-medical-gold/30 to-medical-green/20 opacity-40 blur-lg group-hover:opacity-60 transition-opacity duration-300"/>
+                    {/* Ambient Glow Backdrop */}
+                    <div
+                        className="absolute -inset-2 bg-gradient-to-r from-medical-green/20 via-medical-gold/20 to-transparent rounded-3xl blur-2xl opacity-60 pointer-events-none"/>
 
-                        {/* Structural Gold Accent Bracket */}
-                        <div
-                            className="absolute -bottom-3 -left-3 w-24 h-24 border-b-2 border-l-2 border-medical-gold rounded-bl-xl pointer-events-none hidden sm:block"/>
-                        <div
-                            className="absolute -top-3 -right-3 w-24 h-24 border-t-2 border-r-2 border-medical-gold rounded-tr-xl pointer-events-none hidden sm:block"/>
+                    {/* Portrait Container */}
+                    <div
+                        className="relative w-full max-w-[280px] sm:max-w-[340px] lg:max-w-[380px] aspect-[4/5] lg:aspect-[941/1672] rounded-2xl overflow-hidden shadow-2xl border border-slate-800/80 bg-slate-950 group transition-all duration-300">
 
-                        {/* Main Image Masking Container */}
-                        <div
-                            className="relative overflow-hidden rounded-xl border border-slate-800 bg-slate-950 shadow-2xl aspect-[941/1672] w-full">
-                            <img
-                                src="/images/milad.png" // Replace with your actual file path
-                                alt="Healman Medical Systems Installation"
-                                className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
-                                loading="eager"
-                            />
+                        <Image
+                            src="/images/milad.PNG"
+                            alt="Milad Ganji - Official Regional Representative"
+                            fill
+                            priority
+                            sizes="(max-width: 640px) 280px, (max-width: 1024px) 340px, 380px"
+                            className="object-cover object-top lg:object-center transition-transform duration-700 group-hover:scale-105"
+                        />
 
-                            {/* Subtle Dark Bottom Vignette Overlay */}
+                        {/* Bottom Vignette for Overlay Contrast */}
+                        <div
+                            className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent opacity-90 lg:opacity-70 pointer-events-none"/>
+
+                        {/* Glassmorphism Representative Tag */}
+                        <div
+                            className="absolute bottom-4 left-4 right-4 p-3.5 rounded-xl bg-slate-900/80 backdrop-blur-md border border-white/10 shadow-lg flex items-center justify-between pointer-events-none">
+                            <div>
+                                <p className="font-serif text-sm font-bold text-white tracking-wide">
+                                    Milad Ganji
+                                </p>
+                                <p className="font-sans text-[10px] text-medical-gold font-medium uppercase tracking-wider">
+                                    Regional Representative
+                                </p>
+                            </div>
                             <div
-                                className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-transparent pointer-events-none"/>
+                                className="w-8 h-8 rounded-full bg-medical-green/20 border border-medical-green/40 flex items-center justify-center text-medical-green text-xs">
+                                <i className="fa-solid fa-shield-halved"></i>
+                            </div>
                         </div>
 
                     </div>

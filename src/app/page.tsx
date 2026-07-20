@@ -1,79 +1,10 @@
-import Link from "next/link";
+import Hero from '../components/Hero'
 
 export default function HomePage() {
     return (
         <div className="w-full flex flex-col bg-medical-light">
 
-            <section className="relative min-h-[85vh] w-full flex items-center bg-slate-900 text-white overflow-hidden">
-                {/* Decorative Gold Light Flare */}
-                <div
-                    className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-medical-gold-light to-transparent opacity-30 pointer-events-none"/>
-
-                <div
-                    className="mx-auto max-w-7xl w-full px-6 py-16 lg:py-24 relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-
-                    {/* Left Column: Core Value & Content */}
-                    <div className="lg:col-span-7 flex flex-col justify-center space-y-6 max-w-2xl animate-fade-in">
-
-                        {/* Accreditation Badge */}
-                        <div
-                            className="inline-flex items-center gap-2 bg-medical-green/90 text-white border border-medical-green-dark/50 px-4 py-2 rounded-full w-fit shadow-lg shadow-black/10">
-                            <span className="h-2 w-2 rounded-full bg-medical-gold animate-pulse"/>
-                            <p className="font-sans text-[10px] font-bold tracking-widest uppercase">
-                                Official Regional Representative
-                            </p>
-                        </div>
-
-                        {/* Core Value Statement */}
-                        <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight leading-[1.1] text-white">
-                            Bridging European Medical Precision
-                        </h1>
-
-                        <p className="font-sans text-sm md:text-base text-slate-300 leading-relaxed max-w-xl">
-                            Healman, under the direct representation of <strong
-                            className="text-white font-semibold">Milad Ganji</strong>, is the official authorized
-                            representative for <span className="text-medical-gold font-medium">ChM</span> and <span
-                            className="text-medical-gold font-medium">Chirmed</span>. We deliver premium, certified
-                            trauma fixation systems and ultra-durable surgical instrumentation directly to leading
-                            healthcare institutions.
-                        </p>
-
-                        {/* CTA Button Grid */}
-                        <div className="pt-4 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
-                            <Link
-                                href="/products"
-                                className="bg-medical-green hover:bg-medical-green-dark border border-transparent text-white font-sans text-xs font-bold tracking-widest uppercase px-8 py-4 rounded-lg flex items-center justify-center gap-3 transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-xl hover:shadow-medical-green/20"
-                            >
-                                EXPLORE MEDICAL CATALOG <i className="fa-solid fa-arrow-right text-[10px]"></i>
-                            </Link>
-                            <Link
-                                href="/contact"
-                                className="bg-transparent hover:bg-white/5 border border-white/20 hover:border-white text-white font-sans text-xs font-bold tracking-widest uppercase px-8 py-4 rounded-lg flex items-center justify-center gap-3 transition-all duration-300"
-                            >
-                                REQUEST MANDATE PAPERS
-                            </Link>
-                        </div>
-                    </div>
-
-                    {/* Right Column: Protected Portrait Container */}
-                    <div
-                        className="lg:col-span-5 flex items-center justify-center lg:justify-end animate-fade-in mt-8 lg:mt-0">
-                        <div
-                            className="relative w-full max-w-[340px] sm:max-w-[380px] aspect-[941/1672] rounded-2xl overflow-hidden shadow-2xl border border-slate-800 bg-slate-950">
-                            <img
-                                src="/images/milad.png"
-                                alt="Milad - Official Regional Representative"
-                                className="w-full h-full object-cover object-center"
-                                loading="eager"
-                            />
-                            {/* Subtle Ambient Vignette Overlay */}
-                            <div
-                                className="absolute inset-0 bg-gradient-to-t from-slate-950/50 via-transparent to-transparent pointer-events-none"/>
-                        </div>
-                    </div>
-
-                </div>
-            </section>
+            <Hero/>
 
             {/* Official Partnership Validation Ribbon */}
             <section className="bg-white border-b border-slate-100 py-10 shadow-sm relative z-20">

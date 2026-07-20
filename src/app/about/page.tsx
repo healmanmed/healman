@@ -32,7 +32,7 @@ export default function AboutPage() {
                         </h2>
                         <p className="font-sans text-sm md:text-base text-medical-gray leading-relaxed">
                             We connect high-quality medical products with healthcare professionals, distributors, and
-                            medical tourists in Armenia. As the official sales representative of Healman, we are
+                            medical tourists in Armenia. As the official sales representative of Healman Healthcare, we are
                             committed to delivering reliable products and professional support to our partners.
                         </p>
                         <p className="font-sans text-sm text-medical-gray leading-relaxed">

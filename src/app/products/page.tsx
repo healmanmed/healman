@@ -66,7 +66,7 @@ export default function ProductsPage() {
                         Authorized Medical Divisions & Partner Brands
                     </h1>
                     <p className="font-sans text-xs sm:text-sm text-slate-400 max-w-xl mt-3 leading-relaxed">
-                        Healman Medical Supplies provides direct factory pipelines to certified European and
+                        Healman Healthcare Supplies provides direct factory pipelines to certified European and
                         international hardware pools, managed under strict clinical validation guidelines.
                     </p>
                 </div>
