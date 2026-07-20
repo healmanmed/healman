@@ -11,7 +11,7 @@ export default function Footer() {
                     <div className="flex items-center justify-center md:justify-start gap-3 mb-2">
                         <div className="text-xl text-medical-gold"><i className="fa-solid fa-hexagon-nodes"></i></div>
                         <div>
-                            <h2 className="font-serif font-bold text-lg tracking-wide text-white">HEALMAN</h2>
+                            <h2 className="font-serif font-bold text-lg tracking-wide text-white">HEALMED</h2>
                             <p className="text-[9px] tracking-widest text-slate-400 uppercase">medical supplies</p>
                         </div>
                     </div>
