@@ -31,7 +31,7 @@ export default function HomePage() {
 
                         <p className="font-sans text-sm md:text-base text-slate-300 leading-relaxed max-w-xl">
                             Healman, under the direct representation of <strong
-                            className="text-white font-semibold">Milad Charkhi</strong>, is the official authorized
+                            className="text-white font-semibold">Milad Ganji</strong>, is the official authorized
                             representative for <span className="text-medical-gold font-medium">ChM</span> and <span
                             className="text-medical-gold font-medium">Chirmed</span>. We deliver premium, certified
                             trauma fixation systems and ultra-durable surgical instrumentation directly to leading

@@ -28,7 +28,7 @@ export default function AboutPage() {
                     {/* Main Statement Content */}
                     <div className="lg:col-span-7 space-y-6">
                         <h2 className="font-serif text-2xl md:text-3xl font-bold text-slate-900 tracking-wide">
-                            Connecting High-Tier European Engineering with Regional Clinical Mandates
+                            Connecting High-Tier International Engineering with Regional Clinical Mandates
                         </h2>
                         <p className="font-sans text-sm md:text-base text-medical-gray leading-relaxed">
                             We connect high-quality medical products with healthcare professionals, distributors, and
