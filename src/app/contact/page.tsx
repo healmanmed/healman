@@ -65,7 +65,7 @@ export default function ContactPage() {
                                     <h4 className="font-sans font-bold text-sm tracking-wide text-slate-800">Email
                                         Inquiries</h4>
                                     <p className="text-sm text-medical-gray mt-1 leading-relaxed">
-                                        healman@medical.com<br/>support@healmanmedical.com
+                                        miladcharkhi93@gmail.com
                                     </p>
                                 </div>
                             </div>
