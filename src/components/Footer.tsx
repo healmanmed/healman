@@ -48,7 +48,7 @@ export default function Footer() {
 
                 {/* Verified Corporate Contacts */}
                 <div className="text-xs text-slate-400 space-y-2">
-                    <p><i className="fa-solid fa-envelope mr-2 text-slate-500"></i> healman@medical.com</p>
+                    <p><i className="fa-solid fa-envelope mr-2 text-slate-500"></i> miladganji1993@gmail.com</p>
                     <p><i className="fa-solid fa-phone mr-2 text-slate-500"></i> +37493029052</p>
                     <p><i className="fa-solid fa-location-dot mr-2 text-slate-500"></i> Heratsi st. No 7, Yerevan,
                         Armenia</p>
