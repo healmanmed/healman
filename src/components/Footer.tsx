@@ -24,11 +24,26 @@ export default function Footer() {
                     <Link href="/careers" className="hover:text-white transition-colors">Careers</Link>
                 </div>
 
-                {/* Social Ecosystem Layouts */}
-                <div className="flex justify-center md:justify-start gap-6 text-slate-400 text-lg">
-                    <a href="#" className="hover:text-white transition-colors"><i className="fa-brands fa-linkedin"></i></a>
-                    <a href="#" className="hover:text-white transition-colors"><i className="fa-brands fa-twitter"></i></a>
-                    <a href="#" className="hover:text-white transition-colors"><i className="fa-brands fa-telegram"></i></a>
+                {/* Direct Messaging Channels */}
+                <div className="flex justify-center md:justify-start gap-6 text-slate-400 text-xl">
+                    <a
+                        href="https://wa.me/37493029052"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:text-medical-gold transition-colors"
+                        aria-label="Contact on WhatsApp"
+                    >
+                        <i className="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a
+                        href="https://t.me/+37493029052"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:text-medical-gold transition-colors"
+                        aria-label="Contact on Telegram"
+                    >
+                        <i className="fa-brands fa-telegram"></i>
+                    </a>
                 </div>
 
                 {/* Verified Corporate Contacts */}

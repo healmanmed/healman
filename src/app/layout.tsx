@@ -16,7 +16,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-    title: "Healman Medical Supplies",
+    title: "Healmed Medical Supplies",
     description: "High-end medical equipment and trauma solutions.",
 };
 
