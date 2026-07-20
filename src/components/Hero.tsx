@@ -28,7 +28,7 @@ export default function Hero() {
 
                     <p className="font-sans text-sm sm:text-base text-slate-300 max-w-xl mx-auto lg:mx-0 leading-relaxed">
                         Connecting Armenia's surgical environments, healthcare professionals, and distributors with
-                        factory-direct European implant lines from ChM and precision instrumentation from Chirmed.
+                        factory-direct International implant lines from ChM and precision instrumentation from Chirmed.
                     </p>
 
                     {/* Action Callouts */}
