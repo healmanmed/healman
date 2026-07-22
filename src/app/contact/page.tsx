@@ -65,7 +65,7 @@ export default function ContactPage() {
                                     <h4 className="font-sans font-bold text-sm tracking-wide text-slate-800">Email
                                         Inquiries</h4>
                                     <p className="text-sm text-medical-gray mt-1 leading-relaxed">
-                                        miladganji1993@gmail.com
+                                        Miladganji@healmed.am
                                     </p>
                                 </div>
                             </div>
