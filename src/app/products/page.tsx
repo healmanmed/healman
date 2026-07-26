@@ -14,7 +14,7 @@ export default function ProductsPage() {
             features: ["MDR Compliant Implants", "Post-Op Passive Motion", "Anatomical Stabilization"]
         },
         {
-            title: "Neurosurgery & Advanced Operating Theatre",
+            title: "Neurosurgery & Surgery Room",
             description: "Premium surgical instrumentation, clean-air personal protection systems, and temperature-controlled patient management technology.",
             brands: [
                 {name: "Stryker NSE", url: "https://www.stryker.com/us/en/nse.html", detail: "Neurosurgical Equipment"},

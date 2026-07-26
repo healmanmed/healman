@@ -26,8 +26,7 @@ export default function Header() {
                     </div>
                     <div className="leading-none">
                         <h1 className="font-serif text-xl font-bold tracking-wide text-slate-900">Healman Healthcare</h1>
-                        <p className="font-sans text-[10px] tracking-widest text-medical-gray uppercase">medical
-                            supplies</p>
+                        <p className="font-sans text-[10px] tracking-widest text-medical-gray uppercase">Official Regional Representative</p>
                     </div>
                 </Link>
 

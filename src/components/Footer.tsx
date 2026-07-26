@@ -12,7 +12,7 @@ export default function Footer() {
                         <div className="text-xl text-medical-gold"><i className="fa-solid fa-hexagon-nodes"></i></div>
                         <div>
                             <h2 className="font-serif font-bold text-lg tracking-wide text-white">HEALMAN</h2>
-                            <p className="text-[9px] tracking-widest text-slate-400 uppercase">medical supplies</p>
+                            <p className="text-[9px] tracking-widest text-slate-400 uppercase">Health Care</p>
                         </div>
                     </div>
                 </div>
@@ -24,7 +24,7 @@ export default function Footer() {
                     <Link href="/careers" className="hover:text-white transition-colors">Careers</Link>
                 </div>
 
-                {/* Direct Messaging Channels */}
+                {/* Direct Messaging & Social Channels */}
                 <div className="flex justify-center md:justify-start gap-6 text-slate-400 text-xl">
                     <a
                         href="https://wa.me/37493029052"
@@ -43,6 +43,15 @@ export default function Footer() {
                         aria-label="Contact on Telegram"
                     >
                         <i className="fa-brands fa-telegram"></i>
+                    </a>
+                    <a
+                        href="https://www.linkedin.com/in/davit-r-mkrtchyan-a75596217/?skipRedirect=true"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:text-medical-gold transition-colors"
+                        aria-label="Connect on LinkedIn"
+                    >
+                        <i className="fa-brands fa-linkedin"></i>
                     </a>
                 </div>
 

@@ -25,7 +25,7 @@ export default function Hero() {
 
                     {/* Core Value Statement */}
                     <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight leading-[1.1] text-white">
-                        Bridging Internation Medical Precision
+                        Bridging International Medical Precision
                     </h1>
 
                     <p className="font-sans text-sm md:text-base text-slate-300 leading-relaxed max-w-xl">
